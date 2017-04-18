@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+
+		<title>Destination - NEUROTICISM UI</title>
+
+		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Muli">
+        <link rel="stylesheet" type ="text/css" href="style.css">
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <script src="https://use.typekit.net/opd7osq.js"></script>
+        <script>try{Typekit.load({ async: true });}catch(e){}</script>
+        <script type="text/javascript" src="header.js"></script>
+		
+		<!-- https://developers.google.com/web/updates/2013/12/300ms-tap-delay-gone-away?hl=en -->
+		<meta name="viewport" content="width=device-width">
+        
+        <script type="text/javascript">
+        window.onload = function(){ 
+            //Get submit button
+            var submitbutton = document.getElementById("tfq");
+            //Add listener to submit button
+            if(submitbutton.addEventListener){
+                submitbutton.addEventListener("click", function() {
+                    if (submitbutton.value == 'search'){
+                        submitbutton.value = '';
+                    }
+                });
+            }
+        }
+        </script>
+
+	</head>
+    
+    <body>
+        
+        <div class="wrap" id="wrap">
+            <header style="padding: 0px;">
+                <div id="search-header">
+                    <a href="neuroticism.html"><img src="img/logo.png" alt="Destination Logo" width="200px"/></a>
+                </div>
+            </header>
+
+            <nav id="menu-nav" class="row">
+                <div class="col-4">
+                    <a href="#"><img src="img/chat.png" alt="chat icon" width="45%"/></a>
+                </div>
+                <div class="col-4">
+                    <a href="fb-profile.html"><img src="img/profile.png" alt="profile icon" width="50%"/></a>
+                </div>
+                <div class="col-4">
+                    <a href="notifications.html"><img src="img/notification.png" alt="notifications icon" width="50%"/></a>
+                </div>
+                <div class="col-4">
+                    <a href="settings.html"><img src="img/settings.png" alt="settings icon" width="50%"/></a>
+                </div>
+            </nav>
+        </div>
+        
+    
+        <div class="notifications">
+                <img src="img/notifications.png" alt="Notifications" width="100%" class="notifications"/>
+        </div>
+        
+    </body>
+</html>

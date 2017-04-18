@@ -1,0 +1,271 @@
+* {
+    font-family: 'Niveau Grotesk Medium', 'Myriad Pro', sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    height: 50px;
+    border-bottom: 2px solid #eee;
+    background: #fff;
+}
+
+#main-content {
+    padding: 10px;
+    background: #f7f7f7;
+    width: 100%;
+    text-align: center;
+}
+
+/* SOCIAL CONNECT */
+
+/* CONNECT BUTTONS */
+
+#facebook_connect, #twitter_connect, #linkedin_connect, #instagram_connect {
+    padding: 10px;
+}
+
+#social-connect {
+    margin: 20px 0px;
+}
+
+/* FACEBOOK */
+
+button.zocial.facebook {
+    background: #3b5998;
+    background-image: url(img/fb.png);
+    background-size: 30px;
+    background-position: 3% 40%;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: white;
+    font-size: 16px;
+}
+
+/* TWITTER */
+
+button.zocial.twitter { 
+    background: #1da1f2;
+    background-image: url(img/twit.png);
+    background-size: 30px;
+    background-position: 3% 40%;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: white;
+    font-size: 16px;
+}
+
+/* LINKEDIN */
+
+button.zocial.linkedin {
+    background: #0077b5;
+    background-image: url(img/linked.png);
+    background-size: 30px;
+    background-position: 3% 40%;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: white;
+    font-size: 16px;
+}
+
+/* INSTAGRAM */
+
+button.zocial.instagram {
+    background: #458eff;
+    background-image: url(img/insta.png);
+    background-size: 30px;
+    background-position: 3% 40%;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: white;
+    font-size: 16px;
+}
+/* END OF SOCIAL CONNECT */
+
+/*SEARCH BAR*/
+
+#search-bar {
+    float: right;
+    padding: 0px;
+}
+
+.search-input {
+    margin: 0;
+    width: 100px;
+    padding: 5px 5px;
+    font-family: 'Niveau Grotesk Medium', 'Myriad Pro', sans-serif;
+    font-size: 12px;
+    color:#666;
+    background: #f7f7f7;
+    border:2px solid #333; 
+    border-right:0px;
+    border-radius: 30px;
+}
+
+.search-btn {
+    width: 20px;
+    margin: 0;
+    font-family: 'Niveau Grotesk Medium', 'Myriad Pro', sans-serif;
+    cursor: pointer;
+}
+
+/* NAV MENU */
+
+.col-4 {
+    width: 24%;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    background: #f7f7f7;
+    width: 100%;
+}
+
+.row {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* FACEBOOK POST */
+
+.col-1 {
+    width: 22%;
+    display: inline-block;
+    text-align: left;
+}
+
+.col-9 {
+    width: 73%;
+    display: inline-block;
+    text-align: left;
+    float: right;
+}
+
+.facebook-post {
+    background: #3b5998;
+    width: 100%;
+    padding: 5px;
+    height: 240px;
+}
+
+.facebook-icon {
+    width: 50px;
+}
+
+h2 {
+    color: white;
+    font-size: 14px;
+}
+
+.post {
+    background: white;
+    height: 220px;
+    padding: 5px;
+}
+
+/* TWITTER POST */
+
+.twitter-post {
+    background: #1da1f2;
+    width: 100%;
+    padding: 5px;
+    height: 250px;
+}
+
+.twitter-icon {
+    width: 50px;
+}
+
+/* LINKEDIN POST */
+
+.linkedin-post {
+    background: #0077b5;
+    width: 100%;
+    padding: 5px;
+    height: 520px;
+}
+
+.linkedin-icon {
+    width: 50px;
+}
+/* INSTAGRAM POST */
+
+.instagram-post {
+    background: #458eff;
+    width: 100%;
+    padding: 5px;
+    height: 520px;
+}
+
+.instagram-icon {
+    width: 50px;
+}
+/* ADVERTS POST*/
+
+.ad-post {
+    background: #3b5998;
+    width: 100%;
+    padding: 10px 5px;
+    height: 380px;
+}
+
+.ad.post {
+    padding: 5px;
+    height: 350px;
+}
+
+
+
+/* BTN */
+
+button {
+    padding: 10px 15px;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 5px;
+    background: #91d3e2;
+    color: white;
+}
+
+/* END OF SOCIAL CONNECT */
+
+footer {
+    background: #eee;
+    width: 100%;
+    position:fixed;
+    left:0px;
+    bottom:0px;
+}
+
+/* SETTINGS */
+
+#social {
+    text-align: center;
+}
+
+#view-profile {
+    margin: 10px 0px;
+}
+
+#logout {
+    float: right;
+}
